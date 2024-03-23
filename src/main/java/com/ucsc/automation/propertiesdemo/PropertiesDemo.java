@@ -30,14 +30,6 @@ public class PropertiesDemo {
 
     public static void main(String[] args) throws IOException {
 //        new PropertiesDemo().writeDBProperties();
-//        new PropertiesDemo().readDBProperties();
-
-        int count = 0;
-        for (int i = 1; i <= 5; i++) {
-            if (i % 2 == 0)
-                continue;
-            count++;
-        }
-        System.out.println(count);
+        new PropertiesDemo().readDBProperties();
     }
 }
